@@ -1,0 +1,4 @@
+/* Hide the "Built with Streamlit" text */
+.embeddedAppMetaInfoBar_hostedName__-kdmi {
+    display: none;
+}
