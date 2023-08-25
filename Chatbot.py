@@ -99,3 +99,5 @@ if prompt := st.chat_input():
     #st.write(tem_hist)
     st.session_state.messages.append({"role": "assistant", "content": tem_hist["content"]})
     st.chat_message("assistant").write(tem_hist["content"])
+    st.markdown('<link rel="stylesheet" href="custom.css">', unsafe_allow_html=True)
+
